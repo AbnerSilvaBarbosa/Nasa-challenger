@@ -1,0 +1,293 @@
+body {
+    background: linear-gradient(116.95deg, #000000 0.53%, #0C1A33 25.85%, #1A5BDB 99.73%);
+    backdrop-filter: blur(2px);
+    width: 1200px;
+    height: 1950px;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.frame4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 4px 4px 4px 4px;
+    position: absolute;
+    height: 98.1px;
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 20px;
+
+    width: 1490px;
+    height: 78.1px;
+
+}
+
+.frame65 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.frame7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+
+    width: 354px;
+    height: 39px;
+
+}
+
+.frame8 {
+    color: #FF9A6D;
+}
+
+.frame9 {
+    color: #FFFFFF;
+}
+
+.frame10 {
+    color: #FFFFFF;
+}
+
+.left-side,
+.rigth-side {
+    height: 100vh;
+    width: 100%;
+}
+
+.imageAstronauta {
+    position: absolute;
+    right: -420px;
+    top: 50px;
+}
+
+.button1 {
+    padding: 10px;
+    gap: 10px;
+
+    width: 195px;
+    height: 50px;
+
+    /* SALMON */
+
+    background: #FF9A6D;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.button2 {
+    padding: 10px;
+    gap: 10px;
+
+    width: 195px;
+    height: 50px;
+
+    /* ORANGE */
+
+    background: #FF5455;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.textLadingPage {
+    font-family: 'Arian LT';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 51px;
+
+    /* WHITE */
+
+    color: #FFFFFF;
+}
+
+.rowWhite {
+    color: white;
+    width: 1657px;
+}
+
+.frame12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+
+    color: #FFFFFF;
+}
+
+.frame71 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+
+    width: 210px;
+    height: 89px;
+}
+
+.frame72 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+
+    width: 210px;
+    height: 89px;
+}
+
+.frame73 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+
+    width: 210px;
+    height: 89px;
+}
+
+.frame74 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+
+    width: 210px;
+    height: 89px;
+}
+
+.textoCalc {
+    margin-left: 600px;
+}
+
+.Slide2 {
+    background-color: white;
+    margin-top: 50px;
+    width: 1663px;
+    height: 700px;
+}
+
+.Slide2>h1 {
+    padding: 1%;
+}
+
+.informaçõesSimples {
+    margin-top: 15%;
+    display: flex;
+    gap: 20px;
+}
+
+.informaçõesSimplesSolo {
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.informaçõesSimplesSolo>img {
+    margin-left: 135px;
+}
+
+.textoPergunta {
+    font-family: "Arian";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 51px;
+
+    margin-left: 3%;
+}
+
+.Slide3 {
+    text-align: center;
+    background: linear-gradient(108.7deg, #373D43 0.87%, #0C1A33 26.17%, #1A5BDB 98.97%);
+    ;
+    width: 1663px;
+    height: 700px;
+
+    color: white;
+}
+
+.Slide3>h1 {
+
+
+
+    font-family: "Arian";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+
+.Slide4 {
+    background-color: white;
+
+    width: 1675px;
+    height: 700px;
+}
+
+.planetRandom {
+    position: absolute;
+    left: 1278px;
+    top: 2320px
+}
+
+.infosATT {
+    padding: 2.5%;
+}
+
+.infosATT>h1 {
+    font-family: "Arian";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.card-blue {
+    text-align: center;
+
+
+    width: 100px;
+
+
+    background: #1A5BDB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    margin-left: 10px;
+}
+
+.frame44 {
+    padding: 2%;
+    background: #373D43;
+    width: 1663px;
+    height: 230px;
+
+    color: white;
+}
+
+.copyDi{
+    font-family: "Arian";
+    font-style: normal;
+    font-weight: 300;
+
+    line-height: 51px;
+}
