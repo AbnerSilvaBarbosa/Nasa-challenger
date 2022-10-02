@@ -1,0 +1,108 @@
+body {
+    overflow-x: hidden;
+}
+
+.imageTerra {
+    position: absolute;
+    right: -80px;
+    top: 280px;
+}
+
+
+.imageLua {
+    position: absolute;
+    right: -230px;
+    top: 220px;
+}
+
+.textLadingPage2 {
+    font-family: 'Arian';
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 36px;
+    line-height: 51px;
+
+    /* WHITE */
+
+    color: #FFFFFF;
+
+    width: 600px;
+}
+
+.textMini {
+    font-family: 'Monospace';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 24px;
+
+    /* WHITE */
+
+    color: #FFFFFF;
+}
+
+.analises {
+    background-color: white;
+
+    width: 100%;
+    height: max-content;
+    padding: 30px;
+}
+
+.analises>h1 {
+    font-family: 'Arian';
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 36px;
+    line-height: 51px;
+
+
+}
+
+.analises>p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.cardInfos {
+    padding: 20px;
+    width: 100%;
+    /* WHITE */
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.teste {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.teste2 {
+    max-width: 460px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.teste3 {
+
+    /* position: absolute;
+    left: 30%;
+
+    padding: 80px; */
+    width: 100%;
+
+
+}

@@ -1,0 +1,69 @@
+.Membros {
+    background-color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.title-sobrenos {
+    font-family: "Arian";
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.descicao-sobrenos {
+    font-family: 'Montserrat-Regular';
+    font-size: 24px;
+}
+
+.Membros>p {
+    font-family: "Arian";
+    font-style: normal;
+    font-weight: 300;
+}
+
+.cardMember {
+    padding: 10px;
+    width: 100%;
+    min-height: 230px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    /* margin-left: 10%; */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.cardMember-img {
+    max-height: 250px; 
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.card-name {
+    font-family: "Montserrat-Semibold";
+    font-size: 24px;
+}
+
+.card-cargo, .card-email {
+    font-family: 'Alliance';
+    font-size: 22px;
+    word-break: break-word;
+}
+.card-cargo span{
+    font-family: "Montserrat-Light";
+    font-weight: 800;
+}
+.card-content{
+height: 100%;
+}
+
+.cardMember>p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}

@@ -7,46 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./frontend/css/home.css">
-    <title>Home</title>
+    <title>Z-TECH | Home</title>
+    <link rel="icon" type="image/x-icon" href="/frontend./image/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <style>
-        @font-face {
-            font-family: "Arian";
-            src: url("../image/Arian\ LT\ Light.ttf");
-        }
-    </style>
 </head>
 
 <body>
 
-
-
-    <nav class="frame4">
-        <div class="frame3">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
             <div class="frame65">
                 <img src="./frontend/image/logo.svg" alt="Logo" width="90" height="62.1">
-                <p class="" href="#" style="color:white ;">Z-TECH</p>
+                <a class="" href="index.html" style="color:white ;text-decoration: none;">Z-TECH</a>
             </div>
-
-            <div class="frame7">
-                <div class="frame8">
-                    <p>inicio</p>
-                </div>
-
-                <div class="frame10">
-                    <a href="./frontend/views/sobreNos.html">sobre nós</a>
-                </div>
-
-                <div class="frame9">
-                    <p>ver estatisticas</p>
-                </div>
-
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0" style="margin-left: auto; align-items: center; padding: 0px 30px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./frontend/views/sobreNos.html">sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./frontend/views/estatisticas.html">ver estatísticas</a>
+                    </li>
+                    </li>
+                </ul>
             </div>
-
         </div>
-
     </nav>
+   
 
 
     <br>
@@ -57,24 +58,42 @@
 
     <header>
         <div class="row">
-            <div class="col">
-                <div class="d-flex align-items-center">
-                    <img src="./frontend/image/Terra.svg" alt="Planeta Terra">
-
-                    <div>
-                        <h1 class="textLadingPage">Nos ajude a monitorar o Sol!</h1>
-                        <div class="d-flex gap-3">
-                            <button class="button1 border-0">Ver estatistivas</button>
-                            <button class="button2 border-0">Doar</button>
-                        </div>
-
+            <div class="col col-sm-12">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img src="./frontend/image/Terra.svg" alt="Planeta Terra">
                     </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="container">
+                            <div class="align-items-center ">
+                                <h1 class="textLadingPage">Nos ajude a monitorar o Sol!</h1>
+                                <div class="d-flex gap-3 justify-content-center">
+
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-12 col-lg-6"><button
+                                                    class="button1 border-0"> <i class="fa fa-bar-chart" aria-hidden="true"></i> Ver
+                                                    estatísticas </button></div>
+                                            <div class="col-sm-12 col-md-12 col-lg-6"><button
+                                                    class="button2 border-0"><i class="fa fa-money" aria-hidden="true"></i> Doar </button></div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img class="imageAstronauta" src="./frontend/image/Astronauta.svg" alt="Astronauta">
+                    </div>
+
                 </div>
+
             </div>
 
-            <div class="col">
-                <img class="imageAstronauta" src="./frontend/image/Astronauta.svg" alt="Astronauta">
-            </div>
+
 
         </div>
 
@@ -85,65 +104,109 @@
         <hr class="rowWhite">
 
         <div class="d-flex justify-content-center textoCalc">
-            <div class="frame12">
-                <div class="frame71">
-                    <p>100K</p>
-                    <p>acessos</p>
+            <div class="col-sm-12">>
+                <div class="row frame12">
+                    <div class="col-sm-12 col-md-3">
+                        <div class="frame71">
+                            <p class="numeracao-info">100K</p>
+                            <p class="decricao-info">acessos</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="frame72">
+                            <p class="numeracao-info">100</p>
+                            <p class="decricao-info">previsões</p>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="frame73">
+                            <p class="numeracao-info">85%</p>
+                            <p class="decricao-info">acertado</p>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="frame74">
+                            <p class="numeracao-info">15%</p>
+                            <p class="decricao-info">errado</p>
+
+                        </div>
+                    </div>
                 </div>
-
-                <div class="frame72">
-                    <p>100</p>
-                    <p>previsões</p>
-
-                </div>
-
-                <div class="frame73">
-                    <p>85%</p>
-                    <p>acertado</p>
-
-                </div>
-
-                <div class="frame74">
-                    <p>15%</p>
-                    <p>errado</p>
-
-                </div>
-
             </div>
+
 
         </div>
 
         <!--Slide 2-->
         <div class="Slide2">
-            <h1 class="textoPergunta">Você conhece as auroras boreais?</h1>
-
-            <div class="informaçõesSimples">
-                <div class="informaçõesSimplesSolo">
-
-                    <img src="./frontend/image/Sol.svg" alt="Sol">
-                    <div>
-                        <h2>01</h2>
-                        <p>Durante as erupções solares, uma grande quantia de partículas energizadas são lançadas pelo
-                            espaço. </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="textoPergunta">Você conhece as auroras boreais?</h1>
                     </div>
                 </div>
+                <div class="informaçõesSimples">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="informaçõesSimplesSolo">
 
-                <div class="informaçõesSimplesSolo">
-                    <img src="./frontend/image/Meteoro.svg" alt="Meteoro">
-                    <div>
-                        <h2>02</h2>
-                        <p>Ao se aproximarem do nosso planeta Terra, essas partículas são desviadas pelo campo
-                            magnético. </p>
-                    </div>
-                </div>
+                                <img src="./frontend/image/Sol.svg" alt="Sol">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-3">
+                                        <h2 class="titulo-slider3">01</h2>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <p class="descricao-slider3">Durante as erupções solares, uma grande quantia de
+                                            partículas energizadas são
+                                            lançadas
+                                            pelo
+                                            espaço. </p>
+                                    </div>
 
-                <div class="informaçõesSimplesSolo">
 
-                    <img src="./frontend/image/TerraMenor.svg" alt="Terra">
-                    <div>
-                        <h2>03</h2>
-                        <p>Com esse desvio, essas partículas acabam atingindo a atmosfera nas regiões polares, formando
-                            as auroras. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="informaçõesSimplesSolo">
+                                <img src="./frontend/image/Meteoro.svg" alt="Meteoro">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-3">
+                                        <h2 class="titulo-slider3">02</h2>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <p class="descricao-slider3">Ao se aproximarem do nosso planeta Terra, essas
+                                            partículas são desviadas pelo
+                                            campo
+                                            magnético. </p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="informaçõesSimplesSolo">
+
+                                <img src="./frontend/image/TerraMenor.svg" alt="Terra">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-3">
+                                        <h2 class="titulo-slider3">03</h2>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <p class="descricao-slider3">Com esse desvio, essas partículas acabam atingindo
+                                            a atmosfera nas regiões
+                                            polares,
+                                            formando
+                                            as auroras.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -151,59 +214,86 @@
 
         <!--Slide 3-->
         <div class="Slide3">
-            <h1 class="">Beleza perigosa</h1>
-
-            <img src="./frontend/image/Telescopio.svg" alt="Telescopio" class="mb-5">
-            <p>
-                <strong>Mas essas partículas, que formam as auroras boreais, podem ser responsáveis por alterar todo o
-                    campo magnético terrestre. </strong>
-            <p>Uma tempestade solar do mesmo porte que aconteceu em 1859 teria a capacidade de danificar muitos dos
-                nossos satélites, incluindo os de GPS e os de comunicação, que levam TV e internet para todo o mundo.
-                Aqui na Terra, sistemas elétricos e de comunicação entrariam em pane. Aparelhos domésticos e celulares
-                pifando, dando choque e até mesmo explodindo.
-                Estima-se que, se uma tempestade como a do Evento de Carrington ocorresse hoje, os prejuízos seriam
-                superiores a 2 trilhões de dólares e seus efeitos levariam anos para serem superados. Por isso da
-                importancia do acompanhamento constante. </p>
-            </p>
-
-        </div>
-
-        <!--Slide 4-->
-        <div class="Slide4 row">
-            <div class="col infosATT">
-                <h1>Quando vai acontecer a próxima atualização nos dados?</h1>
-                <p>Nosso site funciona através de uma inteligência artificial que é alimentada constamente com dados. É
-                    a
-                    partir disso que conseguimos realizar as predições</p>
-
-                <div class="d-flex">
-
-                    <div class="card-blue">
-                        <h3>15</h3>
-                        <p>dias</p>
+            <div class="container">
+                <h1 class="titulo-slider4">Beleza perigosa</h1>
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="./frontend/image/Telescopio.svg" alt="Telescopio" class="mb-5 img-telescopio">
                     </div>
-
-                    <div class="card-blue">
-                        <h3>12</h3>
-                        <p>horas</p>
-                    </div>
-
-
-                    <div class="card-blue">
-                        <h3>11</h3>
-                        <p>minutos</p>
-                    </div>
-
-                    <div class="card-blue">
-                        <h3>04</h3>
-                        <p>segundos</p>
+                    <div class="col-sm-12 col-md-6">
+                        <p style="text-align: justify;">
+                            <strong class="descricao-slider4">Mas essas partículas, que formam as auroras boreais, podem
+                                ser responsáveis por alterar todo
+                                o
+                                campo magnético terrestre. </strong>
+                        <p class="paragrafo-slider4" style="text-align: justify;">Uma tempestade solar do mesmo porte
+                            que aconteceu em 1859 teria a capacidade de danificar
+                            muitos dos
+                            nossos satélites, incluindo os de GPS e os de comunicação, que levam TV e internet para todo
+                            o
+                            mundo.
+                            Aqui na Terra, sistemas elétricos e de comunicação entrariam em pane. Aparelhos domésticos e
+                            celulares
+                            pifando, dando choque e até mesmo explodindo.
+                            Estima-se que, se uma tempestade como a do Evento de Carrington ocorresse hoje, os prejuízos
+                            seriam
+                            superiores a 2 trilhões de dólares e seus efeitos levariam anos para serem superados.
+                            <strong class="descricao-slider4">Por
+                                isso da
+                                importancia do acompanhamento constante. </strong>
+                        </p>
+                        </p>
                     </div>
                 </div>
 
-            </div>
 
-            <div class="col">
-                <img src="./frontend/image/Planet.svg" alt="Randon planet" class="planetRandom">
+            </div>
+        </div>
+
+        <!--Slide 4-->
+        <div class="Slide4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h1 class="titulo-slide4">Quando vai acontecer a próxima atualização nos dados?</h1>
+                        <p>Nosso site funciona através de uma inteligência artificial que é alimentada constamente com
+                            dados. É
+                            a
+                            partir disso que conseguimos realizar as predições</p>
+
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="card-blue">
+                                    <h3>15</h3>
+                                    <p>dias</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="card-blue">
+                                    <h3 id="hora"></h3>
+                                    <p>horas</p>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="card-blue">
+                                    <h3 id="minutos"></h3>
+                                    <p>minutos</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="card-blue">
+                                    <h3 id="segundos"></h3>
+                                    <p>segundos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-sm-block"><img src="./frontend/image/Planet.svg" alt="Randon planet"
+                            class="planetRandom"></div>
+                </div>
+
             </div>
 
         </div>
@@ -211,28 +301,48 @@
 
     <footer class="frame44">
         <nav>
-            <div class="frame3">
-                <div class="frame65">
-                    <img src="./frontend/image/logo.svg" alt="Logo" width="90" height="62.1">
-                    <p class="" href="#" style="color:white ;">Z-TECH</p>
-                </div>
+            <div class="col-sm-12">
+                <div class="frame3">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-10">
+                            <div class="frame65">
+                                <img src="./frontend/image/logo.svg" alt="Logo" width="90" height="62.1">
+                                <p class="" href="#" style="color:white ;">Z-TECH</p>
+                            </div>
+                            <p class="texto-slogan">Ser um explorador da galaxia é mais do que possivel!</p>
+                        </div>
 
-                <div>
-                    <h2><strong>Menu</strong></h2>
-                    <p>sobre nós</p>
-                    <p>contato</p>
-                    <p>ver estatistica</p>
-                </div>
 
+                        <div class="col-sm-12 col-md-2">
+                            <div class="menu-footer">
+                                <h2 class="menu-title"><strong>Menu</strong></h2>
+                                <div class="menu-list">
+                                    <p>sobre nós</p>
+                                    <p>contato</p>
+                                    <p>ver estatistica</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p>Ser um explorador da galaxia é mais do que possivel</p>
         </nav>
-
+        <hr>
         <p class="copyDi">©2022 Z-TECH. Todos os direitos reservado</p>
 
     </footer>
 
 
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+</script>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+</script>
+<script src="./frontend/js/script.js">
+</script>
 </body>
 
 </html>
